@@ -65,13 +65,13 @@ real-world attacks and detect them using an Elastic SIEM stack.
 
 ## Evidence Screenshots
 
-![Kibana Live Dashboard](Screenshot_2026-06-11_120754.png)
+![Kibana Live Dashboard](Screenshot_2026-06-11 120754.png)
 *Kibana Discover showing 944 live Windows events*
 
-![Brute Force Failed Logons](Screenshot_2026-06-28_123544.png)
+![Brute Force Failed Logons](Screenshot_2026-06-28 123544.png)
 *Event ID 4625 — 6 failed logon attempts from attacker IP*
 
-![Successful Credential Crack](Screenshot_2026-06-28_123454.png)
+![Successful Credential Crack](Screenshot_2026-06-28 123454.png)
 *Event ID 4624 — successful login after brute force*
 
 

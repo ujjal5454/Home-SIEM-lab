@@ -63,6 +63,18 @@ real-world attacks and detect them using an Elastic SIEM stack.
 | 2 | SMB brute force | Metasploit smb\_login | T1110.001 | Windows Event ID 4625 |
 
 
+## Evidence Screenshots
+
+![Kibana Live Dashboard](Screenshot_2026-06-11_120754.png)
+*Kibana Discover showing 944 live Windows events*
+
+![Brute Force Failed Logons](Screenshot_2026-06-28_123544.png)
+*Event ID 4625 — 6 failed logon attempts from attacker IP*
+
+![Successful Credential Crack](Screenshot_2026-06-28_123454.png)
+*Event ID 4624 — successful login after brute force*
+
+
 
 \## Incident Reports
 
